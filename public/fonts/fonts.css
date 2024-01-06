@@ -1,0 +1,39 @@
+@font-face {
+    src: url(./RethinkSans-Regular.woff2) format('woff2'),
+         url(./RethinkSans-Regular.woff) format('woff');
+    font-style: normal;
+    font-family: 'RethinkSans';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(./RethinkSans-Medium.woff2) format('woff2'),
+         url(./RethinkSans-Medium.woff) format('woff');
+    font-style: normal;
+    font-family: 'RethinkSans';
+    font-weight: 500;
+}
+
+@font-face {
+    src: url(./RethinkSans-SemiBold.woff2) format('woff2'),
+         url(./RethinkSans-SemiBold.woff) format('woff');
+    font-style: normal;
+    font-family: 'RethinkSans';
+    font-weight: 600;
+}
+
+@font-face {
+    src: url(./RethinkSans-Bold.woff2) format('woff2'),
+         url(./RethinkSans-Bold.woff) format('woff');
+    font-style: normal;
+    font-family: 'RethinkSans';
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(./RethinkSans-ExtraBold.woff2) format('woff2'),
+         url(./RethinkSans-Bold.woff) format('woff');
+    font-style: normal;
+    font-family: 'RethinkSans';
+    font-weight: 900;
+}

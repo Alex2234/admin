@@ -1,0 +1,31 @@
+.spinner {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.container {
+    
+}
+
+.title {
+    margin: 0;
+
+}
+
+.tableDomains {
+
+}
+
+.headerTable {
+    display: flex;
+    justify-content: start;
+    column-gap: 20px;
+    background-color: rgb(143, 143, 143);
+    padding: 10px;
+}
+
+.parametr {
+    flex-grow: 1;
+}
