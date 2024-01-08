@@ -1,0 +1,54 @@
+.rows {
+    max-height: 666px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #8585ad #2f2f37;
+    -ms-overflow-style: auto;
+    padding-right: 5px;
+  }
+  
+  .rows::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .rows::-webkit-scrollbar-track {
+    background: #2f2f37;
+  }
+  
+  .rows::-webkit-scrollbar-thumb {
+    background-color: #8585ad;
+  }
+  
+  .row {
+    text-align: center;
+    padding: 5px 7px;
+  }
+  
+  .headerTable {
+    display: flex;
+    justify-content: start;
+    column-gap: 20px;
+    background-color: rgb(143, 143, 143);
+    padding: 10px;
+  }
+  
+  .rowTable {
+    display: flex;
+    justify-content: start;
+    column-gap: 20px;
+    padding: 10px;
+  }
+  
+  .parametr {
+    flex-grow: 1;
+  }
+  
+  .deleteBtn {
+      transition: .2s all ease-in-out;
+  }
+  
+  .deleteBtn:hover {
+      transform: scale(1.25);
+  }

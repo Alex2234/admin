@@ -1,4 +1,5 @@
 import styles from "./app.module.css";
+
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import Home from "../../pages/Home/home";
 import SideBar from "../SideBar/sideBar";
@@ -8,11 +9,9 @@ import Dashboard from "../../pages/Dashboard/Dashboard";
 import DataLeads from "../../pages/DataLeads/DataLeads";
 import PreMoney from "../../pages/PreMoney/PreMoney";
 
-
 function App() {
   return (
     <div className={styles.container}>
-    
       <SideBar>
         <Routes>
           <Route path="/" element={<Dashboard />} />
