@@ -1,31 +1,14 @@
 .spinner {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
 }
 
-.container {
-    
+.deleteBtn {
+    transition: .3s all ease-in-out;
 }
 
-.title {
-    margin: 0;
-
-}
-
-.tableDomains {
-
-}
-
-.headerTable {
-    display: flex;
-    justify-content: start;
-    column-gap: 20px;
-    background-color: rgb(143, 143, 143);
-    padding: 10px;
-}
-
-.parametr {
-    flex-grow: 1;
+.deleteBtn:hover {
+    transform: scale(1.25);
 }

@@ -65,6 +65,7 @@ main {
   -webkit-box-shadow: 2px 5px 15px 5px rgba(0, 0, 0, 0.52);
   box-shadow: 2px 5px 15px 5px rgba(0, 0, 0, 0.52);
   display: flex;
+  align-items: center;
   color: #fff;
   padding: 10px 15px;
   gap: 15px;
