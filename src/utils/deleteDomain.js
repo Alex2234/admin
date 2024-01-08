@@ -5,7 +5,7 @@ export const fetchDeleteDomainRequest = (id) => {
     return fetch(`${urlKeitaro}/domains/${id}`, {
         method: 'DELETE',
         headers: {
-            "Api-Key": "434d601541be43acd4ec4b0858e83bbc",
+            "Api-Key": process.env.REACT_APP_API_KEITARO,
             "Content-Type": "application/json",
             "accept": "application/json",
         },

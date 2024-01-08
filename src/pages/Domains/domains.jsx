@@ -12,6 +12,7 @@ import ModalBtn from "../../components/ModalBtn/ModalBtn";
 const Domains = () => {
   const dispatch = useDispatch();
 
+
   useEffect(() => {
     dispatch(getDomains());
   }, [dispatch]);
@@ -146,7 +147,6 @@ const Domains = () => {
     },
   ];
 
-  console.log(data);
 
   return (
     <div className={styles.container}>
